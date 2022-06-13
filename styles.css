@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+*{
+	box-sizing: border-box;
+}
+
+	body{
+	margin:0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+@media all and (max-width: 800px){
+	/* NAV BAR */
+
+	.barnav{
+		text-align: center;
+		box-shadow: 0 0 5px grey;
+
+	}
+   .logo img{
+	  width: 30%;
+
+      }
+
+    input {
+	   border: none;
+	   font-size: 22px;
+	   background-color: rgb(234, 234,234);
+	   text-align: center;
+	   padding-top: 15px;
+	   padding-bottom: 15px;
+	   text-align: center;
+	   width: 33%;
+      }
+   ::placeholder{
+	   color: #000;
+       }
+    nav p {
+	   background-color: rgb(234, 234,234);
+	   font-style: bold;
+	    display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: center;
+       margin-top: 0px;
+        box-shadow: -1px -1px 2px grey;
+    }
+    /*fin nav bar*/
+    /* MENU */
+    .menu-card{
+    	background-color: rgb(246, 246,246);
+    	text-align: center;
+    	margin-top: -18px;
+    }
+   .menu-card h2{
+   	padding-top: 30px;
+	text-transform: initial;
+	font-weight: bold;
+	font-size: 22px;
+    }
+    .menu-card p{
+    	font-size: 18px;
+
+    }
+    .menu-card button{
+    	font-size: 18px;
+    	background-color: #9356DC;
+    	padding: 15px;
+    	border-radius: 40%;
+    	background-image: linear-gradient(#FF79DA, #9356DC) ;
+    }
+    /* FIN MENU */
+
+    /* FONCTIONNEMENT */
+    .functioning .menu-link {
+    	display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+    	margin-left: 0 auto;
+    }
+    .functioning .menu-link a{
+    	text-decoration:none;
+    	color: #000;
+    	background-color: rgb(246, 246,246) ;
+    	border-radius: 20px;
+    	display: flex;
+    	margin-left: 20px;
+    	font-size: 22px;
+    	margin-bottom: 10px;
+    	justify-content: center;
+    	padding: 20px 10px;
+    	text-align: left;
+    }
+    /* FIN FONCTIONNEMENT */
+    /* RESTAURANTS */
+    .restaurants{
+    	background-color: rgb(246, 246,246);
+    	padding-bottom: 10px;
+    }
+    .restaurants h2{
+    	font-size: 35px;
+    }
+    .restaurants  .restaurant .meals{
+    	border: 1px solid black;
+    	margin: 1%;
+    	background-color: #fff;
+    	border-radius: 20px;
+    	overflow: hidden;
+    	font-size: 30px;
+    	margin-bottom: 20px;
+    }
+    .restaurants .restaurant .meals img{
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+
+
+    }
+    .restaurants  .restaurant .meals h3{
+    	margin-top:0px;
+    	margin-bottom: -20px;
+    }
+    .restaurants  .restaurant .meals a{
+    	text-decoration: none;
+    	color: #000;
+    }
+
+    .restaurants  .restaurant .meals .heart{
+    	display: flex;
+    	justify-content: end;
+    	margin-top: -30px;
+    }
+    /* fin restaurants */
+    /*FOOTER*/
+    footer .footer {
+    	display: flex;
+    	flex-direction: column;
+    	background-color: rgb(53, 53, 53);
+    	padding-left: 10px;
+    	padding: 15px;
+
+    }
+    .footer{
+    	color: #FFF;
+    }
+    .footer a{
+    	color: #000;
+    	text-decoration:none ;
+    	font-size: 18px;
+    	color: #fff;
+    }
+    .footer i{
+    	width: 20px;
+    	color: #fff;
+    }
+    .footer p{
+    	font-family: Shrikhand, sans-serif;
+    	width: 30%;
+    }
+    /*FIN FOOTER*/
+    /* --LES PAGES DES MENUS--*/
+    .imgppl img{
+    	width: 100%;
+    	height: 300px;
+    }
+    .all-menus{
+    	background-color: rgb(246, 246, 246);
+    	margin-bottom: 10vh;
+    	padding-bottom: 10px;
+    }
+    .all-menus .title{
+    	display: flex;
+    	align-items: center;
+    }
+    .all-menus h1{
+    	font-family: Shrikhand, sans-serif;
+    	margin-right: 10px;
+    }
+    .all-menus::before{
+    	content: '';
+    	margin-top: -50px;
+       	border-radus: 30px 30px 0 0;
+    	border: 1px solid rgb(246, 246, 246);
+
+    }
+    .all-menus h3{
+    	border-bottom: 3px solid #99E2D0 ;
+    	text-transform: uppercase;
+    	font-weight: initial;
+
+    }
+    .menus .menus-cards{
+    	background-color: #fff;
+    	border-radius: 20px;
+    	padding: 10px;
+    	margin: 10px;
+    }
+    .menus .menus-cards h4{
+    	font-size: 18px;
+    	margin-bottom: -10px;
+    }
+    .menus .menus-cards div{
+    	display: flex;
+    	justify-content: space-between;
+
+    }
+    .menus .menus-cards .price{
+    	font-weight: bold;
+    }
+}
